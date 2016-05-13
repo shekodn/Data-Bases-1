@@ -1,7 +1,7 @@
 <?php
 include_once('conexionBD.php');
 
-$resultado_busqueda = mysqli_query($conexion, "CALL spObtenerEmpleados") or die("ERROR EN EL QUERY: " . mysqli_error());
+$resultado_busqueda = mysqli_query($conexion, "CALL GetEmployee") or die("ERROR EN EL QUERY: " . mysqli_error());
 
 ?>
 
